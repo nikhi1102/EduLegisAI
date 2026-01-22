@@ -1,0 +1,65 @@
+:root {
+  /* Brand Colors - Lovable Orange */
+  --primary-h: 9;
+  --primary-s: 96%;
+  --primary-l: 56%;
+  --color-primary: hsl(var(--primary-h), var(--primary-s), var(--primary-l));
+  --color-primary-glow: hsl(var(--primary-h), var(--primary-s), var(--primary-l), 0.5);
+
+  /* Surface Colors - Light Mode (Default) */
+  --bg-h: 220;
+  --bg-s: 50%;
+  --bg-l: 98%;
+  --color-bg: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
+
+  --glass-bg: hsla(0, 0%, 100%, 0.7);
+  --glass-border: hsla(0, 0%, 100%, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+
+  --text-main: hsl(220, 20%, 20%);
+  --text-muted: hsl(220, 10%, 45%);
+  --text-inverse: hsl(0, 0%, 100%);
+
+  /* Accents */
+  --color-success: hsl(150, 70%, 40%);
+  --color-warning: hsl(35, 90%, 55%);
+  --color-danger: hsl(0, 70%, 55%);
+
+  /* Spacing & Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --header-height: 70px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.dark-mode {
+  /* Surface Colors - Dark Mode */
+  --bg-h: 222;
+  --bg-s: 40%;
+  --bg-l: 10%;
+
+  --glass-bg: hsla(222, 30%, 15%, 0.6);
+  --glass-border: hsla(222, 30%, 30%, 0.3);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+
+  --text-main: hsl(220, 10%, 95%);
+  --text-muted: hsl(220, 10%, 65%);
+}
+
+/* Typography Scale */
+:root {
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.75rem;
+  --font-3xl: 2.25rem;
+  --font-title: 3.5rem;
+}

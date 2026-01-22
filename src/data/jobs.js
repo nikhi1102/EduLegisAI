@@ -1,0 +1,122 @@
+export const jobs = [
+    {
+        id: 1,
+        title: 'Senior Legal Consultant',
+        organization: 'Ministry of Education',
+        location: 'New Delhi, India',
+        type: 'Full-time',
+        salary: '₹12,00,000 - ₹18,00,000 PA',
+        description: 'Seeking an experienced legal consultant to advise on regulatory compliance for higher education institutions.',
+        requirements: ['LLB/LLM', '5+ years experience', 'Knowledge of UGC regulations'],
+        postedDate: '2024-03-15',
+        applyLink: '#'
+    },
+    {
+        id: 2,
+        title: 'Compliance Officer',
+        organization: 'Delhi University',
+        location: 'New Delhi, India',
+        type: 'Contract',
+        salary: '₹8,00,000 - ₹10,00,000 PA',
+        description: 'Responsible for ensuring university adherence to state and central educational policies.',
+        requirements: ['Master in Public Policy or Law', '3+ years experience'],
+        postedDate: '2024-03-18',
+        applyLink: '#'
+    },
+    {
+        id: 3,
+        title: 'Policy Researcher',
+        organization: 'Center for Policy Research',
+        location: 'Remote / Hybrid',
+        type: 'Project-based',
+        salary: '₹60,000 per month',
+        description: 'Researching the impact of the new National Education Policy on vocational training centers.',
+        requirements: ['PhD or equivalent research experience', 'Strong analytical skills'],
+        postedDate: '2024-03-20',
+        applyLink: '#'
+    },
+    {
+        id: 4,
+        title: 'Legal Intern',
+        organization: 'EduLegis Core Team',
+        location: 'Bangalore, India',
+        type: 'Internship',
+        salary: '₹15,000 per month',
+        description: 'Assist in drafting legal summaries and updating the repository of educational laws.',
+        requirements: ['Final year law student', 'Detail-oriented'],
+        postedDate: '2024-03-22',
+        applyLink: '#'
+    },
+    {
+        id: 5,
+        title: 'Assistant Registrar (Legal)',
+        organization: 'National Law School',
+        location: 'Bangalore, India',
+        type: 'Full-time',
+        salary: '₹10,00,000 - ₹15,00,000 PA',
+        description: 'Handling administrative legal matters and university correspondence.',
+        requirements: ['LLB', 'Administrative experience'],
+        postedDate: '2024-03-10',
+        applyLink: '#'
+    },
+    {
+        id: 6,
+        title: 'Education Policy Analyst',
+        organization: 'NITI Aayog',
+        location: 'New Delhi, India',
+        type: 'Full-time',
+        salary: '₹14,00,000 - ₹20,00,000 PA',
+        description: 'Analyze and recommend improvements for national educational frameworks and policies.',
+        requirements: ['Master in Public Policy', 'Data Analysis', 'Government Relations'],
+        postedDate: '2024-03-25',
+        applyLink: '#'
+    },
+    {
+        id: 7,
+        title: 'Legal Director',
+        organization: 'Ashoka University',
+        location: 'Sonipat, Haryana',
+        type: 'Full-time',
+        salary: '₹25,00,000 - ₹35,00,000 PA',
+        description: 'Head the legal department and oversee all compliance and litigation matters.',
+        requirements: ['LLM', '10+ years experience', 'Leadership skills'],
+        postedDate: '2024-03-26',
+        applyLink: '#'
+    },
+    {
+        id: 8,
+        title: 'Cyber Law Consultant',
+        organization: 'National Cyber Safety',
+        location: 'Remote',
+        type: 'Contract',
+        salary: '₹1,00,000 per project',
+        description: 'Advise on data privacy and cyber safety protocols for online education platforms.',
+        requirements: ['Specialization in Cyber Law', 'Technical knowledge'],
+        postedDate: '2024-03-28',
+        applyLink: '#'
+    },
+    {
+        id: 9,
+        title: 'Academic Registrar',
+        organization: 'IIT Madras',
+        location: 'Chennai, India',
+        type: 'Full-time',
+        salary: '₹18,00,000 - ₹24,00,000 PA',
+        description: 'Manage academic records and ensure adherence to senate guidelines.',
+        requirements: ['PhD', 'Academic Administration'],
+        postedDate: '2024-03-29',
+        applyLink: '#'
+    },
+    {
+        id: 10,
+        title: 'RTE Act Advocate',
+        organization: 'Child Rights Coalition',
+        location: 'Mumbai, India',
+        type: 'Part-time',
+        salary: '₹30,000 per month',
+        description: 'Legal support for effective implementation of the Right to Education Act in private schools.',
+        requirements: ['LLB', 'Child Rights Activism'],
+        postedDate: '2024-03-30',
+        applyLink: '#'
+    }
+];
